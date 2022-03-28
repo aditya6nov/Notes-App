@@ -1,0 +1,11 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;  
+}
+.register-link{
+    color: rgb(0, 0, 255);
+}
+.register-link:hover{
+    color: rgb(57, 57, 212);
+}
