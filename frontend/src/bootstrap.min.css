@@ -9063,7 +9063,7 @@ fieldset:disabled .btn {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgb(227 223 224) !important
+  background-color: #158cba !important
 }
 
 .bg-secondary {
@@ -12782,7 +12782,7 @@ fieldset:disabled .btn {
 }
 
 .navbar.bg-primary {
-  border-color: #e58c0d
+  border-color: #117095
 }
 
 .navbar.bg-secondary {
