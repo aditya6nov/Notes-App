@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-
+const url = process.env.MONGO_URL;
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(process.env.MONGO_URL,{
+        const conn = await mongoose.connect(url,{
             useUnifiedTopology:true,
             useNewUrlParser:true,
         });
